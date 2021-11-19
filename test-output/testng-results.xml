@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29656" started-at="2021-11-18T15:04:41 IST" finished-at="2021-11-18T15:05:11 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29656" started-at="2021-11-18T15:04:41 IST" finished-at="2021-11-18T15:05:11 IST">
+      <class name="testScripts.DataParamJson">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testScripts.DataParamJson@458c1321]" name="setup" is-config="true" duration-ms="4793" started-at="2021-11-18T15:04:42 IST" finished-at="2021-11-18T15:04:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testScripts.DataParamJson@458c1321]" name="login" duration-ms="5546" started-at="2021-11-18T15:04:46 IST" data-provider="loginData" finished-at="2021-11-18T15:04:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.DataParamJson@458c1321]" name="teardown" is-config="true" duration-ms="237" started-at="2021-11-18T15:04:52 IST" finished-at="2021-11-18T15:04:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testScripts.DataParamJson@458c1321]" name="setup" is-config="true" duration-ms="3623" started-at="2021-11-18T15:04:52 IST" finished-at="2021-11-18T15:04:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testScripts.DataParamJson@458c1321]" name="login" duration-ms="5765" started-at="2021-11-18T15:04:56 IST" data-provider="loginData" finished-at="2021-11-18T15:05:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.DataParamJson@458c1321]" name="teardown" is-config="true" duration-ms="75" started-at="2021-11-18T15:05:02 IST" finished-at="2021-11-18T15:05:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testScripts.DataParamJson@458c1321]" name="setup" is-config="true" duration-ms="3442" started-at="2021-11-18T15:05:02 IST" finished-at="2021-11-18T15:05:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testScripts.DataParamJson@458c1321]" name="login" duration-ms="5897" started-at="2021-11-18T15:05:05 IST" data-provider="loginData" finished-at="2021-11-18T15:05:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[corpdevops@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CrmPro123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.DataParamJson@458c1321]" name="teardown" is-config="true" duration-ms="172" started-at="2021-11-18T15:05:11 IST" finished-at="2021-11-18T15:05:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testScripts.DataParamJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
