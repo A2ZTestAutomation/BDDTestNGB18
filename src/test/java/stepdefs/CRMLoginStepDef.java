@@ -25,6 +25,7 @@ public class CRMLoginStepDef {
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.manage().timeouts().pageLoadTimeout(10,  TimeUnit.SECONDS);
 			driver.get("https://ui.cogmento.com/");
+			System.out.println("Launched URL");
 		}
 
 		@When("User enters login credentials")
