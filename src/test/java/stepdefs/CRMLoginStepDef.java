@@ -26,7 +26,12 @@ public class CRMLoginStepDef {
 			driver.manage().timeouts().pageLoadTimeout(10,  TimeUnit.SECONDS);
 			driver.get("https://ui.cogmento.com/");
 			System.out.println("Launched URL");
+<<<<<<< HEAD
 			System.out.println("Modified by Tester1 for CR1");
+=======
+			System.out.println("Modified By Tester2 for CR3");
+			
+>>>>>>> branch 'master' of https://github.com/A2ZTestAutomation/BDDTestNGB18.git
 		}
 
 		@When("User enters login credentials")
